@@ -3,7 +3,7 @@
   "serviceId" : "ssocircle-id-of-the-sp",
   "name" : "SAMLService",
   "id" : 10000004,
-  "evaluationOrder" : 10,
+  "evaluationOrder" : 11,
   "metadataLocation" : "https://idp.ssocircle.com/idp-meta.xml"
 }
 

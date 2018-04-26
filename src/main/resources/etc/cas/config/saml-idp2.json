@@ -1,9 +1,0 @@
-{
-  "@class" : "org.apereo.cas.support.saml.services.SamlRegisteredService",
-  "serviceId" : "ssocircle-id-of-the-sp",
-  "name" : "SAMLService",
-  "id" : 10000004,
-  "evaluationOrder" : 10,
-  "metadataLocation" : "https://idp.ssocircle.com/idp-meta.xml"
-}
-

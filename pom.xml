@@ -122,8 +122,6 @@
 			<artifactId>cas-server-support-saml-idp</artifactId>
 			<version>${cas.version}</version>
 		</dependency>
-		<!-- <dependency> <groupId>org.apereo.cas</groupId> <artifactId>cas-management-webapp</artifactId> 
-			<version>${cas.version}</version> <type>war</type> </dependency> -->
 	</dependencies>
 	<profiles>
 		<profile>

@@ -1,8 +1,0 @@
-{
-  "@class" : "org.apereo.cas.support.saml.services.SamlRegisteredService",
-  "serviceId" : "shiboleth-the-sp",
-  "name" : "SAMLService",
-  "id" : 10000003,
-  "evaluationOrder" : 10,
-  "metadataLocation" : "http://www.testshib.org/metadata/testshib-providers.xml"
-}
