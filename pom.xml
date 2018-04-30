@@ -109,8 +109,11 @@
 	</repositories>
 	<dependencies>
 
-		<!-- <dependency> <groupId>org.apereo.cas</groupId> <artifactId>cas-server-support-jdbc</artifactId> 
-			<version>${cas.version}</version> </dependency> -->
+		<dependency>
+			<groupId>org.apereo.cas</groupId>
+			<artifactId>cas-server-support-jdbc</artifactId>
+			<version>${cas.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apereo.cas</groupId>
 			<artifactId>cas-server-support-oauth-webflow</artifactId>
@@ -122,6 +125,19 @@
 			<artifactId>cas-server-support-saml-idp</artifactId>
 			<version>${cas.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apereo.cas</groupId>
+			<artifactId>cas-server-support-jpa-ticket-registry</artifactId>
+			<version>${cas.version}</version>
+		</dependency>
+
+<!-- 		<dependency>
+			<groupId>org.apereo.cas</groupId>
+			<artifactId>cas-server-support-jpa-service-registry</artifactId>
+			<version>${cas.version}</version>
+		</dependency>
+ -->
 	</dependencies>
 	<profiles>
 		<profile>
